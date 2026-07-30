@@ -25,12 +25,12 @@
     <div class="bg-white w-full max-w-3xl rounded-2xl shadow-xl overflow-hidden relative">
         
         <!-- Header Banner -->
-        <div class="bg-red-600 p-6 text-center text-white">
-            <h1 class="text-3xl font-bold tracking-wide uppercase mb-1">Đăng Ký Tham Gia</h1>
-            <h2 class="text-xl font-medium opacity-90">Câu lạc bộ Taekwondo Bạch Mai</h2>
+        <div class="bg-red-600 p-4 sm:p-6 text-center text-white">
+            <h1 class="text-xl sm:text-3xl font-bold tracking-wide uppercase mb-1 md:mb-2">Đăng Ký Tham Gia</h1>
+            <h2 class="text-sm sm:text-xl font-medium opacity-90">Câu lạc bộ Taekwondo Bạch Mai</h2>
         </div>
 
-        <form id="registrationForm" class="p-8 space-y-6">
+        <form id="registrationForm" class="p-5 sm:p-8 space-y-6">
             
             <!-- Võ sinh info row -->
             <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
@@ -152,7 +152,7 @@
                 </svg>
             </div>
             <h3 class="text-2xl font-bold text-gray-800 mb-2 text-center">Đăng Ký Thành Công!</h3>
-            <p class="text-gray-600 text-center mb-6">Cảm ơn bạn đã tham gia Câu lạc bộ Taekwondo Bạch Mai.</p>
+            <p class="text-gray-600 text-center mb-6">Cảm ơn bạn đã đăng ký tham gia Câu lạc bộ Taekwondo Bạch Mai. Chúng tôi sẽ liên hệ lại trong thời gian sớm nhất.</p>
             <button onclick="resetForm()" class="bg-gray-800 hover:bg-gray-900 text-white font-medium py-2 px-6 rounded-lg transition-colors">
                 Đăng ký người khác
             </button>
@@ -168,7 +168,7 @@
         const submitBtn = document.getElementById('submitBtn');
 
         // BƯỚC QUAN TRỌNG: Dán cái URL Web App bạn copy từ Google Apps Script vào đây (Bỏ trong dấu ngoặc kép)
-        const SCRIPT_URL = 'https://script.google.com/macros/s/AKfycbwr7I9zQ84teaDMa6NlDhHEI0fEfRbGnQewTH3IsIE8rzp_lVd5EcohdLNnFkNFU1zXbQ/exec';
+        const SCRIPT_URL = 'THAY_LINK_WEB_APP_CUA_BAN_VAO_DAY';
 
         form.addEventListener('submit', function(e) {
             e.preventDefault(); 
